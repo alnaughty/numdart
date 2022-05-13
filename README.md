@@ -84,11 +84,14 @@ The NumDart package allows you to do advanced math with the dart language. The p
 #### [Github - Zekkontro](https://github.com/zekkontro)    
 #### [Instagram - brtwlf](https://www.instagram.com/brtwlf/saved/)
 
+#	Reproduced By:
+#### Zeus Nicole R. Cajurao
+#### [Github - Alnaughty](https://github.com/alnaughty/)
 # License
 
 MIT License
 
-Copyright (c) 2021 Berat Kurt
+Copyright (c) 2022 Zeus Cajurao
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

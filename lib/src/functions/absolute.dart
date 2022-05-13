@@ -5,7 +5,7 @@ Array absolute(List<num> list) {
   isEmptyError(list);
   List<num> base = List<num>.generate(list.length, (index) {
     if (list[index] < 0) {
-      int delta = 0 - list[index];
+      int delta = int.parse((0 - list[index]).toString());
       return delta;
     } else {
       return list[index];

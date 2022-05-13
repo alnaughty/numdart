@@ -1,8 +1,10 @@
-const double pi = 3.1415926535897932;
-const double ln2 = 0.6931471805599453;
-const double e = 0.6931471805599453;
-const double ln10 = 2.302585092994046;
-const double log2e = 1.4426950408889634;
-const double log10e = 0.4342944819032518;
-const double sqrt1_2 = 0.7071067811865476;
-const double sqrt2 = 1.4142135623730951;
+import 'dart:math' as MATH;
+
+const double pi = MATH.pi;
+const double ln2 = MATH.ln2;
+const double e = MATH.e;
+const double ln10 = MATH.ln10;
+const double log2e = MATH.log2e;
+const double log10e = MATH.log10e;
+const double sqrt1_2 = MATH.sqrt1_2;
+const double sqrt2 = MATH.sqrt2;

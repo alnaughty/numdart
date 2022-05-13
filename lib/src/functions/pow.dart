@@ -12,9 +12,14 @@ Array powArray(List<double> a, List<double> b) {
   }
 
   List<double> base = List<double>.generate(
-      a.length,
-      (index) => m.pow(index + 1 > a.length ? 1 : a[index],
-          (index + 1 > b.length ? 1 : b[index])));
+    a.length,
+    (index) => double.parse(
+      m
+          .pow(index + 1 > a.length ? 1.0 : a[index],
+              (index + 1 > b.length ? 1.0 : b[index]))
+          .toString(),
+    ),
+  );
 
   return Array(base);
 }

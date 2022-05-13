@@ -26,7 +26,7 @@ class Array extends DelegatingList {
   }
 
   Uint8List toBytes() {
-    return Uint8List.fromList(this.toList());
+    return Uint8List.fromList(this.toList() as List<int>);
   }
 
   File toFile(String path) {
